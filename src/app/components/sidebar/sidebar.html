@@ -1,0 +1,33 @@
+<aside class="w-64 h-screen bg-white border-r border-gray-200 flex flex-col">
+  <div class="p-6">
+    <img src="assets/logo-movivendor.png" alt="Logo" class="h-8" />
+  </div>
+
+  <nav class="flex-1 px-4 space-y-2">
+    <a
+      routerLink="/inicio"
+      routerLinkActive="bg-blue-50 text-movi-blue"
+      class="flex items-center gap-3 p-2 text-gray-600 rounded-lg transition-colors"
+    >
+      <span class="material-icons-outlined">home</span>
+      <span class="font-medium">Inicio</span>
+    </a>
+
+    <div class="pt-4">
+      <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider px-2">
+        REST
+        <span class="bg-green-100 text-green-700 text-[10px] px-2 py-0.5 rounded-full ml-2"
+          >Nuevo</span
+        >
+      </p>
+      <div class="mt-2 space-y-1">
+        <a href="#" class="block p-2 text-sm text-gray-600 hover:bg-gray-100 rounded-lg"
+          >Generar Token</a
+        >
+        <a href="#" class="block p-2 text-sm bg-blue-50 text-movi-blue font-medium rounded-lg"
+          >Refrescar Token</a
+        >
+      </div>
+    </div>
+  </nav>
+</aside>
